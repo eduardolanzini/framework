@@ -1,4 +1,4 @@
 ### Install framework
 ```
-composer create-project laravel/laravel project-directory
+composer create-project eduardolanzini/framework project-directory
 ```
