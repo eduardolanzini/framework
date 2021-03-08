@@ -3,7 +3,7 @@
 	"description": "Framework de uso pessoal",
 	"type": "project",
 	"minimum-stability": "dev",
-	"prefer-stable": true,
+	"prefer-stable": false,
 	"authors": [
 		{
 			"name": "Eduardo Lanzini",
