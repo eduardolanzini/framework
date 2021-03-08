@@ -1,0 +1,22 @@
+{
+	"name": "eduardo-lanzini/framework",
+	"description": "Framework de uso pessoal",
+	"authors": [
+		{
+			"name": "Eduardo Lanzini",
+			"email": "eduardolanzini91@gmail.com"
+		}
+	],
+	"require": {
+		"eduardolanzini/router":"dev-main",
+		"eduardolanzini/query-builder":"dev-main",
+		"eduardolanzini/orm":"dev-main"
+	},
+	"autoload" : {
+		"psr-4": {
+			"Framework\\" : "framework/",
+			"Controllers\\" : "app/controllers/",
+			"Models\\" : "app/models/"
+		}
+	}
+}

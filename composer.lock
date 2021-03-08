@@ -1,0 +1,128 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2faf581c44f8a40b0ea293940b407689",
+    "packages": [
+        {
+            "name": "eduardolanzini/orm",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eduardolanzini/orm.git",
+                "reference": "65a0dfa68d81456fcb0e07fe0d7a26403fdf0f6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eduardolanzini/orm/zipball/65a0dfa68d81456fcb0e07fe0d7a26403fdf0f6a",
+                "reference": "65a0dfa68d81456fcb0e07fe0d7a26403fdf0f6a",
+                "shasum": ""
+            },
+            "require": {
+                "eduardolanzini/query-builder": "dev-main",
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EduardoLanzini\\": "/scr"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo Lanzini"
+                }
+            ],
+            "description": "Simple ORM",
+            "time": "2021-03-08T03:48:18+00:00"
+        },
+        {
+            "name": "eduardolanzini/query-builder",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eduardolanzini/query-builder.git",
+                "reference": "61443ec584de49abc8c97a86ec9a5170295971b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eduardolanzini/query-builder/zipball/61443ec584de49abc8c97a86ec9a5170295971b9",
+                "reference": "61443ec584de49abc8c97a86ec9a5170295971b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EduardoLanzini\\": "/scr"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo Lanzini"
+                }
+            ],
+            "description": "Simple Query Builder",
+            "time": "2021-03-08T03:25:09+00:00"
+        },
+        {
+            "name": "eduardolanzini/router",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eduardolanzini/router.git",
+                "reference": "7124c10b3fe876c03817860af28c49c79715b8ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eduardolanzini/router/zipball/7124c10b3fe876c03817860af28c49c79715b8ef",
+                "reference": "7124c10b3fe876c03817860af28c49c79715b8ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EduardoLanzini\\": "/scr"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Router"
+                }
+            ],
+            "description": "Simple Router",
+            "time": "2021-03-08T00:40:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "eduardolanzini/router": 20,
+        "eduardolanzini/query-builder": 20,
+        "eduardolanzini/orm": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
