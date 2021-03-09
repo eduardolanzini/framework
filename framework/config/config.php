@@ -38,8 +38,8 @@ $config->db = [
 	'host' => 'localhost',
 	'port' => '3306',
 	'charset' => 'charset=utf8;',
-	'database' => '',
-	'user' => '',
+	'database' => 'anastacia',
+	'user' => 'root',
 	'pass' => ''
 ];
 
@@ -47,10 +47,10 @@ $config->productionDB = [
 	'driver' => 'mysql',
 	'host' => 'localhost',
 	'port' => '3306',
-	'charset' => '',
-	'database' => '',
-	'user' => '',
-	'pass' => ''
+	'charset' => 'charset=utf8;',
+	'database' => 'u357803079_automasites',
+	'user' => 'u357803079_automasites',
+	'pass' => '+r7#!9iU7'
 ];
 
 // ----------------------------------
