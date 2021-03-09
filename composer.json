@@ -3,6 +3,7 @@
 	"description": "Framework de uso pessoal",
 	"type": "project",
 	"minimum-stability":"dev",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Eduardo Lanzini",

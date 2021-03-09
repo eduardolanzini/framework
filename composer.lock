@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2faf581c44f8a40b0ea293940b407689",
+    "content-hash": "fda9a74f802a5ac4aa80f661c0e916bd",
     "packages": [
         {
             "name": "eduardolanzini/orm",
@@ -130,7 +130,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "eduardolanzini/router": 20,
         "eduardolanzini/query-builder": 20,
