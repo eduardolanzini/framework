@@ -2,6 +2,7 @@
 	"name": "eduardo-lanzini/framework",
 	"description": "Framework de uso pessoal",
 	"type": "project",
+	"minimum-stability":"dev",
 	"authors": [
 		{
 			"name": "Eduardo Lanzini",
