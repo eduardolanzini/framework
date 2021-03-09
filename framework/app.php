@@ -20,7 +20,9 @@ Final Class App{
 
 	public function run()
 	{	
-		DB::connect($this->config->getDb());
+		if ($this->config->useDb) {
+			DB::connect($this->config->getDb());
+		}
 
 		session_start();
 

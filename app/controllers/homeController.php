@@ -9,7 +9,7 @@ Class HomeController
 {
 	public function index()
 	{	
-		$user = User::get(1);
+		//$user = User::get(1);
 
 		View::render('index');
 	}
