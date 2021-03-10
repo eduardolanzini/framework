@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eduardolanzini/framework-package.git",
-                "reference": "3b2d10eb4bf0a8f48caf3111b743cded68c251c3"
+                "reference": "ee406f2ea17ab29e968df705ae444170ef85c71c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eduardolanzini/framework-package/zipball/3b2d10eb4bf0a8f48caf3111b743cded68c251c3",
-                "reference": "3b2d10eb4bf0a8f48caf3111b743cded68c251c3",
+                "url": "https://api.github.com/repos/eduardolanzini/framework-package/zipball/ee406f2ea17ab29e968df705ae444170ef85c71c",
+                "reference": "ee406f2ea17ab29e968df705ae444170ef85c71c",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,9 @@
             "description": "Framework Files",
             "support": {
                 "issues": "https://github.com/eduardolanzini/framework-package/issues",
-                "source": "https://github.com/eduardolanzini/framework-package/tree/0.0.3"
+                "source": "https://github.com/eduardolanzini/framework-package/tree/0.0.4"
             },
-            "time": "2021-03-10T03:46:02+00:00"
+            "time": "2021-03-10T04:06:07+00:00"
         },
         {
             "name": "eduardolanzini/orm",
