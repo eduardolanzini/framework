@@ -17,7 +17,7 @@ $config->setTimezone("America/Sao_Paulo");
 // |     URL CONFIGURATIONS       |
 // ----------------------------------
 
-$config->setLocalPath('http://localhost');
+$config->setLocalPath('http://localhost/eduardolanzini/teste6/public_html');
 $config->setProductionPath("");
 
 // ----------------------------------

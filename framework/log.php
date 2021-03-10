@@ -1,6 +1,6 @@
 <?php
 
-namespace EduardoLanzini;
+namespace Framework;
 
 Class Log{
 

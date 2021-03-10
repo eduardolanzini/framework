@@ -1,9 +1,9 @@
 <?php
 
-namespace EduardoLanzini;
+namespace Framework;
 
-use EduardoLanzini\Config;
-use EduardoLanzini\Log;
+use Framework\Config;
+use Framework\Log;
 use EduardoLanzini\Router;
 use EduardoLanzini\DB;
 

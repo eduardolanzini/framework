@@ -1,9 +1,9 @@
 <?php
 
-namespace EduardoLanzini;
+namespace Framework;
 
-use EduardoLanzini\Log;
-use EduardoLanzini\Auth;
+use Framework\Log;
+use Framework\Auth;
 
 Class Template{
 

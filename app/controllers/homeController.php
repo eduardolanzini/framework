@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-use EduardoLanzini\View;
+use Framework\View;
 use Models\User;
 
 Class HomeController

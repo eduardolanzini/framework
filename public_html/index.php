@@ -2,6 +2,6 @@
 
 require '../vendor/autoload.php';
 
-$app = new EduardoLanzini\App;
+$app = new Framework\App;
 
 $app->run();
