@@ -11,6 +11,7 @@
 		}
 	],
 	"require": {
+		"eduardolanzini/framework-package":"dev-master",
 		"eduardolanzini/router":"dev-main",
 		"eduardolanzini/query-builder":"dev-main",
 		"eduardolanzini/orm":"dev-main"
