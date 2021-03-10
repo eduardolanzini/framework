@@ -17,7 +17,7 @@
 	},
 	"autoload" : {
 		"psr-4": {
-			"Framework\\" : "framework/",
+			"EduardoLanzini\\" : "framework/",
 			"Controllers\\" : "app/controllers/",
 			"Models\\" : "app/models/"
 		}

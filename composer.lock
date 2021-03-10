@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fda9a74f802a5ac4aa80f661c0e916bd",
+    "content-hash": "58cd700b23c6ba7cc197f41ea36506aa",
     "packages": [
         {
             "name": "eduardolanzini/orm",

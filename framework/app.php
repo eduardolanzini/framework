@@ -1,9 +1,9 @@
 <?php
 
-namespace Framework;
+namespace EduardoLanzini;
 
-use Framework\Config;
-use Framework\Log;
+use EduardoLanzini\Config;
+use EduardoLanzini\Log;
 use EduardoLanzini\Router;
 use EduardoLanzini\DB;
 
@@ -27,8 +27,8 @@ Final Class App{
 		session_start();
 
 		define('DS', DIRECTORY_SEPARATOR);
+		define('ROOT', substr(__DIR__,0,-10));
 		define('PATH', $this->config->getPath());
-		define('ROOT', $this->config->getRoot());
 		define('ENVIRONMENT', $this->config->getEnvironment());
 		define('LAST_URL', isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER'] : '' );
 
@@ -37,14 +37,13 @@ Final Class App{
 		$router = new Router();
 
 		$router->setBasePath($this->config->getPath());
-		$router->setControllerPath($this->config->getRoot().DS.'app'.DS.'controllers');
-		$router->setViewPath($this->config->getRoot().DS.'app'.DS.'views');
+		$router->setControllerPath(ROOT.DS.'app'.DS.'controllers');
+		$router->setViewPath(ROOT.DS.'app'.DS.'views');
 
-		require_once $this->config->getRoot().'/app/Routes.php';
+		require_once ROOT.'/app/Routes.php';
 
 		if (!$router->route())
 		{
-			http_response_code(404);
 			redirect('404');
 		}
 	}

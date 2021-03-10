@@ -1,10 +1,10 @@
 <?php
 
-namespace Framework;
+namespace EduardoLanzini;
 
 Class Config{
 
-	private $environment,$path,$root,$email;
+	private $environment,$path,$email;
 
 	public function getEnvironment()
 	{
@@ -27,22 +27,6 @@ Class Config{
 		}
 	}
 
-	public function getRoot()
-	{
-		if ($this->environment == 'local')
-		{
-			return $this->localRoot;
-		}
-		elseif($this->environment == 'production')
-		{
-			return $this->productionRoot;
-		}
-		else
-		{
-			Log::error('Environment não informado');
-		}
-	}
-
 	public function getEmail(){
 		return $this->email;
 	}
@@ -57,14 +41,6 @@ Class Config{
 
 	public function setProductionPath($path){
 		$this->productionPath = $path;
-	}
-
-	public function setLocalRoot($root){
-		$this->localRoot = $root;
-	}
-
-	public function setProductionRoot($root){
-		$this->productionRoot = $root;
 	}
 
 	public function setEmail($email)
@@ -91,11 +67,13 @@ Class Config{
 	public function getDb()
 	{
 		if ($this->environment == 'local') {
-			return $this->db;
-		} elseif ($this->environment == 'production') {
+			return $this->localDB;
+		}
+		elseif ($this->environment == 'production') {
 
 			return $this->productionDB;
-		} else {
+		}
+		else {
 			Log::error('Environment não informado');
 		}
 	}

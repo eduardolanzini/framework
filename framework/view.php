@@ -1,10 +1,10 @@
 <?php
 
-namespace Framework;
+namespace EduardoLanzini;
 
-use Framework\Log;
-use Framework\Auth;
-use Framework\Template;
+use EduardoLanzini\Log;
+use EduardoLanzini\Auth;
+use EduardoLanzini\Template;
 
 Class View{
 

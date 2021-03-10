@@ -14,18 +14,11 @@ $config->setEnvironment('local');
 $config->setTimezone("America/Sao_Paulo");
 
 // ----------------------------------
-// |     LOCAL CONFIGURATIONS       |
+// |     URL CONFIGURATIONS       |
 // ----------------------------------
 
-$config->setLocalRoot('C:\Users\vitor\Documents\sites\eduardolanzini\framework');
-$config->setLocalPath('http://localhost/eduardolanzini/framework/public_html');
-
-// ----------------------------------
-// |   PRODUCTION CONFIGURATIONS    |
-// ----------------------------------
-
-$config->setProductionRoot("/home/u357803079/domains/automasites.com.br");
-$config->setProductionPath("https://automasites.com.br");
+$config->setLocalPath('http://localhost');
+$config->setProductionPath("");
 
 // ----------------------------------
 // |      DATABASE CONFIGURATIONS       |
@@ -33,13 +26,13 @@ $config->setProductionPath("https://automasites.com.br");
 
 $config->useDb = false;
 
-$config->db = [
+$config->localDB = [
 	'driver' => 'mysql',
 	'host' => 'localhost',
 	'port' => '3306',
 	'charset' => 'charset=utf8;',
-	'database' => 'anastacia',
-	'user' => 'root',
+	'database' => '',
+	'user' => '',
 	'pass' => ''
 ];
 
@@ -48,9 +41,9 @@ $config->productionDB = [
 	'host' => 'localhost',
 	'port' => '3306',
 	'charset' => 'charset=utf8;',
-	'database' => 'u357803079_automasites',
-	'user' => 'u357803079_automasites',
-	'pass' => '+r7#!9iU7'
+	'database' => '',
+	'user' => '',
+	'pass' => ''
 ];
 
 // ----------------------------------
