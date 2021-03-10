@@ -1,7 +1,9 @@
 {
-	"name": "eduardo-lanzini/framework",
+	"name": "eduardolanzini/framework",
 	"description": "Framework de uso pessoal",
 	"type": "project",
+	"minimum-stability":"dev",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Eduardo Lanzini",
@@ -9,6 +11,7 @@
 		}
 	],
 	"require": {
+		"eduardolanzini/framework-package":"dev-master",
 		"eduardolanzini/router":"dev-main",
 		"eduardolanzini/query-builder":"dev-main",
 		"eduardolanzini/orm":"dev-main"

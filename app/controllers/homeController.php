@@ -2,20 +2,21 @@
 
 namespace Controllers;
 
-use Framework\View;
+use EduardoLanzini\Framework\View;
 use Models\User;
 
 Class HomeController
 {
-	public function index()
+	public function index($request)
 	{	
-		$user = User::get(1);
+		//$user = User::get($request['user']);
 
 		View::render('index');
 	}
 
 		public function erro404()
 	{	
+		http_response_code(404);
 		View::render('404');
 	}
 }

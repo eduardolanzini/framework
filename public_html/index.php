@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+require '../vendor/autoload.php';
 
-$app = new Framework\App;
+$app = new EduardoLanzini\Framework\App;
 
 $app->run();
